@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Speedtype pro 1</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SpeedType Pro | Typing Trainer</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+
+            <h1><span style="font-size: 1.2em;">⌨️</span> SpeedType Pro</h1>
+
+            <p>Improve your typing speed and accuracy</p>
+
+        </header>
+
+        <div class="game-container">
+
+            <div class="stats-bar">
+
+                <div class="stat">
+
+                    <span class="stat-label">Time</span>
+
+                    <span class="stat-value" id="time">60</span>s
+
+                </div>
+
+                <div class="stat">
+
+                    <span class="stat-label">WPM</span>
+
+                    <span class="stat-value" id="wpm">0</span>
+
+                </div>
+
+                <div class="stat">
+
+                    <span class="stat-label">Accuracy</span>
+
+                    <span class="stat-value" id="accuracy">0</span>%
+
+                </div>
+
+                <div class="stat">
+
+                    <span class="stat-label">Level</span>
+
+                    <span class="stat-value" id="level">1</span>
+
+                </div>
+
+            </div>
+
+            <div class="text-display" id="text-display">
+
+                Click "Start" to begin the test
+
+            </div>
+
+            <textarea id="text-input" placeholder="Click start and begin typing here..." disabled></textarea>
+
+            <div class="controls">
+
+                <div class="buttons-row">
+
+                    <button id="start-btn" class="btn primary">
+
+                        <span>▶️</span> Start
+
+                    </button>
+
+                    <button id="reset-btn" class="btn secondary" disabled>
+
+                        <span>🔄</span> Reset
+
+                    </button>
+
+                </div>
+
+                <div class="difficulty">
+
+                    <label for="difficulty">Difficulty:</label>
+
+                    <select id="difficulty">
+
+                        <option value="easy">Easy</option>
+
+                        <option value="medium" selected>Medium</option>
+
+                        <option value="hard">Hard</option>
+
+                        <option value="expert">Expert</option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="result-modal" id="result-modal">
+
+            <div class="modal-content">
+
+                <h2>Test Completed!</h2>
+
+                <div class="result-stats">
+
+                    <div class="result-stat">
+
+                        <div class="result-value" id="final-wpm">0</div>
+
+                        <div class="result-label">Words Per Minute</div>
+
+                    </div>
+
+                    <div class="result-stat">
+
+                        <div class="result-value" id="final-accuracy">0%</div>
+
+                        <div class="result-label">Accuracy</div>
+
+                    </div>
+
+                    <div class="result-stat">
+
+                        <div class="result-value" id="final-time">0s</div>
+
+                        <div class="result-label">Time</div>
+
+                    </div>
+
+                </div>
+
+                <button id="close-modal" class="btn primary">Continue</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <p>Practice daily to improve your typing speed. Try to reach 60 WPM!</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
